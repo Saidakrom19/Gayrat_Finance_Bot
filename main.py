@@ -77,7 +77,6 @@ SYSTEM_PROMPT = FINANCE_PROMPT
 4. Иложи бўлса қадам-бақадам молиявий ечим бер.
 5. Фойда, харажат, пул оқими ва риск нуқтаи назаридан фикр билдир.
 6. Жавоблар фақат ўзбек тилида, кирилл алифбосида бўлсин.
-"""
 
 def wants_text_reply(user_message: str) -> bool:
     text = user_message.lower()
